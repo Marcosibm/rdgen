@@ -5,7 +5,7 @@ on:
     inputs:
       server:
         description: 'Rendezvous Server'
-        required: true
+        required: false
         default: ''
         type: string
       key:
