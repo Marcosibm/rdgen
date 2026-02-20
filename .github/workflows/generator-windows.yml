@@ -10,7 +10,7 @@ on:
         type: string
       key:
         description: 'Public Key'
-        required: true
+        required: false
         default: ''
         type: string
       apiServer:
@@ -20,7 +20,7 @@ on:
         type: string
       custom:
         description: "Custom JSON"
-        required: true
+        required: false
         default: ''
         type: string
       uuid:
@@ -40,7 +40,7 @@ on:
         type: string
       appname:
         description: "app name"
-        required: true
+        required: false
         default: 'rustdesk'
         type: string
       filename:
